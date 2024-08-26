@@ -7,9 +7,9 @@
   Add your open source license, GitHub uses MIT license.
 -->
 
-# Introduction to GitHub
+# Share Great Tables with Quarto and Cloud Connect
 
-_Get started using GitHub in less than an hour._
+_Share your first great table with the world in less than 30 minutes._
 
 </header>
 
@@ -23,18 +23,18 @@ _Get started using GitHub in less than an hour._
 
 People use GitHub to build some of the most advanced technologies in the world. Whether you’re visualizing data or building a new game, there’s a whole community and set of tools on GitHub that can help you do it even better. GitHub Skills’ “Introduction to GitHub” course guides you through everything you need to start contributing in less than an hour.
 
-- **Who is this for**: New developers, new GitHub users, and students.
-- **What you'll learn**: We'll introduce repositories, branches, commits, and pull requests.
-- **What you'll build**: We'll make a short Markdown file you can use as your [profile README](https://docs.github.com/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme).
-- **Prerequisites**: None. This course is a great introduction for your first day on GitHub.
-- **How long**: This course takes less than one hour to complete.
+- **Who is this for**: Anyone with a great table (made by the Python Great Tables package) who has a burning desire to share it with the world
+- **What you'll learn**: We'll introduce Quarto documents and Connect Cloud, a quick free way to host a Quarto document at its own URL.
+- **What you'll build**: We'll make a short Quarto document that contains your great table and then post it to its own URL.
+- **Prerequisites**: None. If you don't have a great table at hand, we'll lend you one.
+- **How long**: You can complete this course in about five minutes if you rush, but why not take your time and make it 10?
 
 In this course, you will:
 
-1. Create a branch
-2. Commit a file
-3. Open a pull request
-4. Merge your pull request
+1. Create a Quarto document (.qmd)
+2. Add a python chunk to the document that creates a great table
+3. Use your Github Account to sign into Connect Cloud
+4. Publish your document to Connect Cloud and admire the attractive table contained therein
 
 ### How to start this course
 
@@ -67,7 +67,7 @@ In this course, you will:
 
 ---
 
-Get help: [Post in our discussion board](https://github.com/orgs/skills/discussions/categories/introduction-to-github) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
+Get help: [Post in our discussion board](https://forum.posit.co/c/posit-professional-hosted/posit-connect-cloud/67) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
 
 &copy; 2024 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
 
