@@ -9,7 +9,7 @@
 
 # Share Great Tables with Quarto and Cloud Connect
 
-_Share your first great table with the world in less than 30 minutes._
+_Share your great table with the world in just a few minutes._
 
 </header>
 
