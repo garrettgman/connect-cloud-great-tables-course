@@ -7,16 +7,44 @@
   TBD-step-1-notes.
 -->
 
-## Step 1: TBD-step-1-name
+## Step 1: Create a Quarto doc
 
-_Welcome to "TBD-course-name"! :wave:_
+_Welcome to "Share Great Tables with Quarto and Cloud Connect"! :wave:_
 
-TBD-step-1-information
+Our first step is to make a Quarto document that we can publish online.
 
-**What is _TBD-term-1_**: TBD-definition-1
+**What is a Quarto?**: A Quarto document (.qmd) is a plain-text markdown file that contains 
+code chunks written in Python, R, Julia, or Observable. When you render the document, Quarto formats the markdown and inserts the output of the code chunks into a polished report.
 
-### :keyboard: Activity: TBD-step-1-name
+Read more about Quarto at [quarto.org](https://quarto.org/). 
+
+### :keyboard: Activity: Make a quarto document
 
 1. Open a new browser tab, and work on the steps in your second tab while you read the instructions in this tab.
-1. TBD-step-1-instructions.
-1. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
+  
+2. On the < > Code tab in the header menu of your repository, select the **Add file** drop-down and click **Create new file**.
+
+   ![create new file option](/images/create-new-file.png)
+
+3. In the **Name your file...** field, enter `Table.qmd`.
+
+4. In the **Enter file contents here** area, copy the following content to your file:
+
+   ```
+   ---
+   title: "Check this out..."
+   format: html
+   jupyter: python3
+   ---
+   
+   ```
+
+   ![profile.md file screenshot](/images/my-quarto-file.png)
+
+   This creates an empty Quarto doc that can contain executable python chunks and be rendered to HTML.
+
+6. Click **Commit changes...** in the upper right corner above the contents box. 
+
+   ![screenshot of adding a new file with a commit message](/images/commit-full-screen.png)
+   
+7. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
