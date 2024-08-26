@@ -21,13 +21,13 @@ _Share your great table with the world in just a few minutes._
 
 ## Welcome
 
-With [Great Tables](https://posit-dev.github.io/great-tables/articles/intro.html) anyone can make wonderful-looking tables in Python. But how do you share them? Here's a simple way: put your table in a Quarto document and then host it for free on Connect Cloud. This quick course will show you everything you need to know.  
+With [Great Tables](https://posit-dev.github.io/great-tables/articles/intro.html) anyone can make wonderful-looking tables in Python. But how do you share them? Here's a simple way: put your table in a Quarto document and then host it for free on Connect Cloud. This course will show you everything you need to know.  
 
 - **Who is this for**: Anyone who wants to share a _great table_ via the internet.
 - **What you'll learn**: We'll introduce Quarto documents and Connect Cloud.
-- **What you'll build**: We'll make a short Quarto document that contains your great table and then post it to its own URL.
+- **What you'll build**: You'll make a short Quarto document that contains your great table and then post it to its own URL.
 - **Prerequisites**: None. If you don't have a great table, we'll lend you one.
-- **How long**: You can complete this course in about five minutes if you rush, but why not take your time and make it 10?
+- **How long**: If you rush, you can complete this course in about five minutes; but why not take your time and make it 10?
 
 In this course, you will:
 
