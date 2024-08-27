@@ -5,15 +5,80 @@
   TBD-step-2-notes.
 -->
 
-## Step 2: TBD-step-2-name
+## Step 2: Add a great table
 
-_You did TBD-step-1-name! :tada:_
+_You made a Quarto document! :tada:_
 
-TBD-step-2-information
+Now let's add a great table to your Quarto doc.
 
-**What is _TBD-term-2_**: TBD-definition-2
+**What is a _great table?_**: A great table is a polars or pandas dataframe polished for publication with the Great Tables package. Great Tables lets you mix and match things like headers, footers, row stubs, column spanners, labels, and much more. Not only that, but you can format the cell values in a variety of awesome ways.
 
-### :keyboard: Activity: TBD-step-2-name
+Read more about the Great Tables package [here](https://posit-dev.github.io/great-tables/articles/intro.html). 
 
-1. TBD-step-2-instructions.
-1. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
+### :keyboard: Activity: Add a table to your Quarto doc
+
+1. Open `table.qmd`.
+    
+3. Click on the **pencil icon** to edit the contents of `table.qmd`.
+
+   ![The edit icon](images/edit.png)
+
+4. Add the following content to the bottom of the file.
+
+   ````
+ 
+   ```{python}
+   #| echo: false
+   
+   ```
+   ````
+
+   This creates adds a python code chunk. Now we can add any python code you like between the chunk fences (```). When you render the document, Quarto will run the code and append its results into a polished HTML file. `#| echo: false` tells Quarto to include the results of the code chunk, but not the code itself.
+
+5. Under `#| echo: false` add code that creates a great table. Don't have one handy? Use this code. When run, it makes the table below.
+
+   ![Table of solar azimuths](images/solar-table.png)
+
+   ```
+   from great_tables import GT, html
+   from great_tables.data import sza
+   import polars as pl
+   import polars.selectors as cs
+   
+   sza_pivot = (
+       pl.from_pandas(sza)
+       .filter((pl.col("latitude") == "20") & (pl.col("tst") <= "1200"))
+       .select(pl.col("*").exclude("latitude"))
+       .drop_nulls()
+       .pivot(values="sza", index="month", on="tst", sort_columns=True)
+   )
+   
+   (
+       GT(sza_pivot, rowname_col="month")
+       .data_color(
+           domain=[90, 0],
+           palette=["rebeccapurple", "white", "orange"],
+           na_color="white",
+       )
+       .tab_header(
+           title="Solar Zenith Angles from 05:30 to 12:00",
+           subtitle=html("Average monthly values at latitude of 20&deg;N."),
+       )
+       .sub_missing(missing_text="")
+   )
+   ```
+
+   Your file should now look something like this. If you'd like to add a text introduction for your table, you can write it above the python code chunk.
+   
+   ![Table.qmd](images/table-on-github.png)
+
+6. Click **Commit changes...** in the upper right corner above the contents box.
+
+   ![screenshot of adding a new file with a commit message](/images/commit-top-of-page.png)
+
+   Then click **Commit changes** in the pop up window that opens.
+
+   ![screenshot of adding a new file with a commit message](/images/commit-full-screen-2.png)
+
+   
+9. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
