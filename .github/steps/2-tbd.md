@@ -21,7 +21,7 @@ Read more about the Great Tables package [here](https://posit-dev.github.io/grea
     
 3. Click on the **pencil icon** to edit the contents of `table.qmd`.
 
-   ![The edit icon](images/edit.png)
+   ![The edit icon](/images/edit.png)
 
 4. Add the following content to the bottom of the file.
 
@@ -37,7 +37,7 @@ Read more about the Great Tables package [here](https://posit-dev.github.io/grea
 
 5. Under `#| echo: false` add code that creates a great table. Don't have one handy? Use this code. When run, it makes the table below.
 
-   ![Table of solar azimuths](images/solar-table.png)
+   ![Table of solar azimuths](/images/solar-table.png)
 
    ```
    from great_tables import GT, html
@@ -70,7 +70,7 @@ Read more about the Great Tables package [here](https://posit-dev.github.io/grea
 
    Your file should now look something like this. If you'd like to add a text introduction for your table, you can write it above the python code chunk.
    
-   ![Table.qmd](images/table-on-github.png)
+   ![Table.qmd](/images/table-on-github.png)
 
 6. Click **Commit changes...** in the upper right corner above the contents box.
 
