@@ -11,10 +11,10 @@
 
 _Welcome to "Share Great Tables with Quarto and Cloud Connect"! :wave:_
 
-Our first step is to make a Quarto document that we can publish online.
+Our first step is to make a Quarto document to put our table in.
 
 **What is a Quarto?**: A Quarto document (.qmd) is a plain-text markdown file that contains 
-code chunks written in Python, R, Julia, or Observable. When you render the document, Quarto formats the markdown and inserts the output of the code chunks into a polished report.
+code chunks written in Python, R, Julia, or Observable. When you render the document, Quarto formats the markdown into a polished report and inserts the output of the code chunks.
 
 Read more about Quarto at [quarto.org](https://quarto.org/). 
 
@@ -26,7 +26,7 @@ Read more about Quarto at [quarto.org](https://quarto.org/).
 
    ![create new file option](/images/create-new-file.png)
 
-3. In the **Name your file...** field, enter `Table.qmd`.
+3. In the **Name your file...** field, enter `table.qmd`.
 
 4. In the **Enter file contents here** area, copy the following content to your file:
 
@@ -41,7 +41,7 @@ Read more about Quarto at [quarto.org](https://quarto.org/).
 
    ![profile.md file screenshot](/images/my-quarto-file.png)
 
-   This creates an empty Quarto doc that can contain executable python chunks and be rendered to HTML.
+   Quarto files begin with a YAML header that contains metadata used to render the file. This header begins an empty Quarto doc that can be rendered to HTML and contain executable python chunks.
 
 6. Click **Commit changes...** in the upper right corner above the contents box. 
 
