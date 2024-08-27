@@ -71,5 +71,10 @@ Read more about the Great Tables package [here](https://posit-dev.github.io/grea
    Your file should now look something like this. If you'd like to add a text introduction for your table, you can write it above the python code chunk.
    
    ![Table.qmd](images/table-on-github.png)
+
+6. Click **Commit changes...** in the upper right corner above the contents box. Then click **Commit changes** in the pop up window that opens.
+
+   ![screenshot of adding a new file with a commit message](/images/commit-full-screen.png)
+
    
-6. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
+7. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
