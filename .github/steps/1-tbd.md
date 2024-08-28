@@ -24,11 +24,11 @@ Read more about Quarto at [quarto.org](https://quarto.org/).
   
 2. On the < > Code tab in the header menu of your repository, select the **Add file** drop-down and click **Create new file**.
 
-   ![create new file option](/images/create-new-file.png)
+   <img src="/images/create-new-file.png" width="300"/>
 
-3. In the **Name your file...** field, enter `table.qmd`.
+4. In the **Name your file...** field, enter `table.qmd`.
 
-4. In the **Enter file contents here** area, copy the following content to your file:
+5. In the **Enter file contents here** area, copy the following content to your file:
 
    ```
    ---
@@ -39,16 +39,17 @@ Read more about Quarto at [quarto.org](https://quarto.org/).
    
    ```
 
-   ![profile.md file screenshot](/images/my-quarto-file.png)
+   <img src="/images/my-quarto-file.png" width="600"/>
+   
 
    Quarto files begin with a YAML header that contains metadata used to render the file. This header begins an empty Quarto doc that can be rendered to HTML and contain executable python chunks.
 
-6. Click **Commit changes...** in the upper right corner above the contents box. 
+7. Click **Commit changes...** in the upper right corner above the contents box. 
 
-   ![screenshot of adding a new file with a commit message](/images/commit-top-of-page.png)
+   <img src="/images/commit-top-of-page.png" width="600"/>
 
-7. Then click **Commit changes** in the pop up window that appears.
+9. Then click **Commit changes** in the pop up window that appears.
 
-   ![screenshot of adding a new file with a commit message](/images/commit-full-screen.png)
+   <img src="/images/commit-full-screen.png" width="400"/>
    
-8. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
+10. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
