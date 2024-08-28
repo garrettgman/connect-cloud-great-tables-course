@@ -21,9 +21,9 @@ Read more about the Great Tables package [here](https://posit-dev.github.io/grea
     
 3. Click on the **pencil icon** to edit the contents of `table.qmd`.
 
-   ![The edit icon](/images/edit.png)
+   <img src="/images/edit.png" width="500"/>
 
-4. Add the following content to the bottom of the file.
+5. Add the following content to the bottom of the file.
 
    ````
  
@@ -35,9 +35,9 @@ Read more about the Great Tables package [here](https://posit-dev.github.io/grea
 
    This creates adds a python code chunk. Now we can add any python code you like between the chunk fences (```). When you render the document, Quarto will run the code and append its results into a polished HTML file. `#| echo: false` tells Quarto to include the results of the code chunk, but not the code itself.
 
-5. Under `#| echo: false` add code that creates a great table. Don't have one handy? Use this code. When run, it makes the table below.
+6. Under `#| echo: false` add code that creates a great table. Don't have one handy? Use this code. When run, it makes the table below.
 
-   ![Table of solar azimuths](/images/solar-table.png)
+   <img src="/images/solar-table.png" width="600"/>
 
    ```
    from great_tables import GT, html
@@ -70,15 +70,15 @@ Read more about the Great Tables package [here](https://posit-dev.github.io/grea
 
    Your file should now look something like this. If you'd like to add a text introduction for your table, you can write it above the python code chunk.
    
-   ![Table.qmd](/images/table-on-github.png)
+   <img src="/images/table-on-github.png" width="600"/>
 
-6. Click **Commit changes...** in the upper right corner above the contents box.
+8. Click **Commit changes...** in the upper right corner above the contents box.
 
-   ![screenshot of adding a new file with a commit message](/images/commit-top-of-page.png)
+   <img src="/images/commit-top-of-page.png" width="600"/>
 
    Then click **Commit changes** in the pop up window that appears.
 
-   ![screenshot of adding a new file with a commit message](/images/commit-full-screen-2.png)
+   <img src="/images/commit-full-screen-2.png" width="400"/>
 
    
-9. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
+10. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
