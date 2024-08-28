@@ -45,6 +45,10 @@ Read more about Quarto at [quarto.org](https://quarto.org/).
 
 6. Click **Commit changes...** in the upper right corner above the contents box. 
 
+   ![screenshot of adding a new file with a commit message](/images/commit-top-of-page.png)
+
+7. Then click **Commit changes** in the pop up window that appears.
+
    ![screenshot of adding a new file with a commit message](/images/commit-full-screen.png)
    
-7. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
+8. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
