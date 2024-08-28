@@ -41,7 +41,7 @@ pip install -r /path/to/requirements.txt
    quarto
    ```
 
-   <img src="/images/create-new-file.png" width="600"/>
+   <img src="/images/requirements.png" width="600"/>
 
    These are the packages needed to run our code chunk.
 
