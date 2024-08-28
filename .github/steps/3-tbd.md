@@ -11,7 +11,7 @@ _Nice work finishing your python chunk! :sparkles:_
 
 Now, when someone renders your Quarto doc, it will emit an HTML report that looks like this.
 
-![A preview of the finished report](/images/finished-report.png)
+<img src="/images/finished-report.png" width="600"/>
 
 You could render the report yourself, locally. See how [here](https://quarto.org/docs/get-started/authoring/vscode.html#rendering). But we are going to publish this repository to Connect Cloud. Connect Cloud will render the report for us in the cloud and display the results at a URL. 
 
@@ -27,9 +27,9 @@ pip install -r /path/to/requirements.txt
 
 1. On the < > Code tab in the header menu of your repository, select the **Add file** drop-down and click **Create new file**.
 
-   ![create new file option](/images/create-new-file.png)
+   <img src="/images/create-new-file.png" width="400"/>
 
-2. In the **Name your file...** field, enter `requirements.txt`.
+3. In the **Name your file...** field, enter `requirements.txt`.
 
 4. In the **Enter file contents here** area, copy the following content to your file:
 
@@ -41,16 +41,16 @@ pip install -r /path/to/requirements.txt
    quarto
    ```
 
-   ![profile.md file screenshot](/images/my-requirements-file.png)
+   <img src="/images/create-new-file.png" width="600"/>
 
    These are the packages needed to run our code chunk.
 
 6. Click **Commit changes...** in the upper right corner above the contents box.
 
-   ![screenshot of adding a new file with a commit message](/images/commit-top-of-page-3.png)
+   <img src="/images/commit-top-of-page-3.png" width="600"/>
 
    Then click **Commit changes** in the pop up window that appears.
 
-   ![screenshot of adding a new file with a commit message](/images/commit-full-screen-3.png)
+   <img src="/images/commit-full-screen-3.png" width="400"/>
    
-7. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
+8. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
