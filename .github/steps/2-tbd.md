@@ -76,7 +76,7 @@ Read more about the Great Tables package [here](https://posit-dev.github.io/grea
 
    ![screenshot of adding a new file with a commit message](/images/commit-top-of-page.png)
 
-   Then click **Commit changes** in the pop up window that opens.
+   Then click **Commit changes** in the pop up window that appears.
 
    ![screenshot of adding a new file with a commit message](/images/commit-full-screen-2.png)
 
