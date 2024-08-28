@@ -49,7 +49,7 @@ pip install -r /path/to/requirements.txt
 
    <img src="/images/commit-top-of-page-3.png" width="600"/>
 
-   Then click **Commit changes** in the pop up window that appears.
+7. Then click **Commit changes** in the pop up window that appears.
 
    <img src="/images/commit-full-screen-3.png" width="400"/>
    
