@@ -41,7 +41,7 @@ pip install -r /path/to/requirements.txt
    quarto
    ```
 
-   <img src="/images/create-new-file.png" width="600"/>
+   <img src="/images/requirements.png" width="600"/>
 
    These are the packages needed to run our code chunk.
 
@@ -49,7 +49,7 @@ pip install -r /path/to/requirements.txt
 
    <img src="/images/commit-top-of-page-3.png" width="600"/>
 
-   Then click **Commit changes** in the pop up window that appears.
+7. Then click **Commit changes** in the pop up window that appears.
 
    <img src="/images/commit-full-screen-3.png" width="400"/>
    

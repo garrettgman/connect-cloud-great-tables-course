@@ -76,7 +76,7 @@ Read more about the Great Tables package [here](https://posit-dev.github.io/grea
 
    <img src="/images/commit-top-of-page.png" width="600"/>
 
-   Then click **Commit changes** in the pop up window that appears.
+9. Then click **Commit changes** in the pop up window that appears.
 
    <img src="/images/commit-full-screen-2.png" width="400"/>
 
