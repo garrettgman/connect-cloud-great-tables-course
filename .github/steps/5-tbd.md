@@ -46,6 +46,10 @@ Let's publish that table!
 
    <img src="/images/process.png" width="600"/>
 
-8. **Ta da!** You should be looking at your published content. Click the button below to find out what you can do with it.
+8. **Ta da!** You should be looking at your published content, and it should look like this.
+
+   <img src="/images/published-table.png" width="600"/>
+
+   Click the button below to find out what you can do with it.
    
 9. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
