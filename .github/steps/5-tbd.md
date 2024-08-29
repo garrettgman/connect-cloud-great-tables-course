@@ -21,17 +21,17 @@ Let's publish that table!
 
    <img src="/images/framework.png" width="400"/>
 
-3. **Select your `connect-cloud-great-tables-course repo`.** This is the repo that has the file you want to publish.
+3. **Select your `connect-cloud-great-tables-course` repo.** This is the repo that has the file you want to publish.
 
-   <img src="/images/repo.png" width="300"/>
+   <img src="/images/repo.png" width="400"/>
 
 4. **Select the `main` branch.** This is the branch of the repo that has the file you want to publish.
 
-   <img src="/images/branch.png" width="300"/>
+   <img src="/images/branch.png" width="400"/>
 
 5. **Select `table.qmd`.** This is the file you want to publish.
 
-   <img src="/images/file.png" width="300"/>
+   <img src="/images/file.png" width="400"/>
 
 6. **Click Publish**.
 
@@ -39,11 +39,12 @@ Let's publish that table!
 
 7. Wait a minute or less. Posit Connect Cloud will quickly:
 
-    1. Create a python environment to render your Quarto doc in
-    2. Render the doc
-    3. Publish the result 
+    1. Clone your repo
+    2. Create a python environment to render your Quarto doc in
+    3. Render the doc
+    4. Publish the result 
 
-   <img src="/images/publish-2.png" width="400"/>
+   <img src="/images/process.png" width="600"/>
 
 8. **Ta da!** You should be looking at your published content. Click the button below to find out what you can do with it.
    
