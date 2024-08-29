@@ -28,7 +28,7 @@ Now that your table is on Posit Connect Cloud, you can
 
 4. You can these features and more associated with your app on your Posit Connect home page.
 
-   <img src="/images/portfolio.png" width=500>
+   <img src="/images/portfolio.png" width=600>
 
 ### What's next?
 
