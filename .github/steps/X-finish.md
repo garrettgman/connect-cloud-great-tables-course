@@ -5,6 +5,8 @@
 
 ## Finish
 
+<img src="/images/connect-cloud-great-tables.png" width=300 align=right>
+
 _Congratulations friend, you've completed this course!_
 
 Here's a recap of all the tasks you've accomplished in your repository:
@@ -14,19 +16,22 @@ Here's a recap of all the tasks you've accomplished in your repository:
 - Added a requirements.txt
 - Published the Quarto doc to Posit Connect Cloud
 
+
+## Share and Maintain your table
+
 Now that your table is on Posit Connect Cloud, you can
 
-1. Share the table. Click the Share icon to copy the URL associated with the table. Anyone can visit your table at this URL.
+1. **Share the table.** Click the Share icon to copy the URL associated with the table. Anyone can visit your table at this URL.
 
    <img src="/images/share.png" width=600>
 
-3. Republish the table whenever you like. To do so, click the republish button in the sidebar.
+3. **Republish the table**. To do so, click the republish button in the sidebar.
 
    <img src="/images/republish.png" width=600>
 
-   Republishing the app will scoop up any changes you've made on GitHub. Posit Connect Cloud will eventually scoop up these changes on its own, but republishing the app makes it happen immediately.
+   Republishing will scoop up any changes you've made on GitHub. Posit Connect Cloud will eventually scoop up these changes on its own, but republishing the app makes it happen immediately.
 
-4. You can these features and more associated with your app on your Posit Connect home page.
+4. You can find these features and more next to your app on your Posit Connect home page.
 
    <img src="/images/portfolio.png" width=600>
 
