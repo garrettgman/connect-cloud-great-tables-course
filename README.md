@@ -7,7 +7,9 @@
   Add your open source license, GitHub uses MIT license.
 -->
 
-# Share Great Tables with Quarto and Cloud Connect
+# Share Great Tables with Quarto and Posit Connect Cloud
+
+<img src="/images/connect-cloud-great-tables.png" width=300 align=right>
 
 _Share your great table with the world in just a few minutes._
 
