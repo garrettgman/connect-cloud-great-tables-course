@@ -1,14 +1,15 @@
-name: Step 3, TBD-step-3-name
+name: Step 3, Requirements
 
-# This step triggers after TBD-step-3-event-desc.
+# This step triggers after the student adds a requirements.txt file.
 # This workflow updates from step 3 to step 4.
 
-# This will run every time we TBD-step-3-event-desc.
+# This will run every time we create push a commit to `main`.
 # Reference: https://docs.github.com/en/actions/learn-github-actions/events-that-trigger-workflows
 on:
   workflow_dispatch:
-  # Add events that trigger this workflow.
-  # TBD-step-3-event:
+  push:
+    branches:
+      - main
 
 # Reference: https://docs.github.com/en/actions/security-guides/automatic-token-authentication
 permissions:
@@ -30,8 +31,8 @@ jobs:
     outputs:
       current_step: ${{ steps.get_step.outputs.current_step }}
 
-  on_TBD-step-3-event:
-    name: On TBD-step-3-event
+  on_requirements:
+    name: On Requirements
     needs: get_current_step
 
     # We will only run this action when:
@@ -53,13 +54,11 @@ jobs:
         with:
           fetch-depth: 0 # Let's get all the branches.
 
-      # TBD-step-3-additional-steps
-
-      # In README.md, switch step 3 for step 4.
-      - name: Update to step 4
+      # In README.md, switch step 3 for step X.
+      - name: Update to step X
         uses: skills/action-update-step@v2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           from_step: 3
-          to_step: 4
-          branch_name: tbd-branch-name
+          to_step: X
+          branch_name: main
