@@ -1,5 +1,0 @@
-great_tables
-jupyter
-pandas
-polars
-quarto
