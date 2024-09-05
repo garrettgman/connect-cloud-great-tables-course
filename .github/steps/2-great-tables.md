@@ -11,7 +11,7 @@ _You made a Quarto document! :tada:_
 
 Now let's add a great table to your Quarto doc.
 
-**What is a _great table?_**: A great table is a polars or pandas dataframe polished for publication with the Great Tables package. Great Tables lets you mix and match things like headers, footers, row stubs, column spanners, labels, and much more. Not only that, but you can format the cell values in a variety of awesome ways.
+**What is a _great table?_**: A great table is a polars or pandas dataframe polished for publication with the Great Tables package. Great Tables lets you mix and match things like headers, footers, row stubs, column spanners, labels, and much more. Not only that, you can format the cells in a variety of awesome ways.
 
 Read more about the Great Tables package [here](https://posit-dev.github.io/great-tables/articles/intro.html). 
 
@@ -33,7 +33,7 @@ Read more about the Great Tables package [here](https://posit-dev.github.io/grea
    ```
    ````
 
-   This creates adds a python code chunk. Now we can add any python code you like between the chunk fences (```). When you render the document, Quarto will run the code and append its results into a polished HTML file. `#| echo: false` tells Quarto to include the results of the code chunk, but not the code itself.
+   This creates a Python code chunk. Now we can add any Python code you like between the chunk fences (```). When you render the document, Quarto will run the code and append its results into a polished HTML file. `#| echo: false` tells Quarto to include the results of the code chunk, but not the code itself.
 
 6. Under `#| echo: false` add code that creates a great table. Don't have one handy? Use this code. When run, it makes the table below.
 
@@ -68,11 +68,11 @@ Read more about the Great Tables package [here](https://posit-dev.github.io/grea
    )
    ```
 
-   Your file should now look something like this. If you'd like to add a text introduction for your table, you can write it above the python code chunk.
+   Your file should now look something like this. If you'd like to add a text introduction for your table, you can write it above the Python code chunk.
    
    <img src="/images/table-on-github.png" width="600"/>
 
-8. Click **Commit changes...** in the upper right corner above the contents box.
+8. Click **Commit changes...** in the upper right corner above the contents box to save your changes.
 
    <img src="/images/commit-top-of-page.png" width="600"/>
 

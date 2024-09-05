@@ -7,17 +7,17 @@
 
 ## Step 3: Add a requirements.txt file
 
-_Nice work finishing your python chunk! :sparkles:_
+_Nice work finishing your Python chunk! :sparkles:_
 
 Now, when someone renders your Quarto doc, it will emit an HTML report that looks like this.
 
 <img src="/images/finished-report.png" width="600"/>
 
-You could render the report yourself, locally. See how [here](https://quarto.org/docs/get-started/authoring/vscode.html#rendering). But we are going to publish this repository to Connect Cloud. Connect Cloud will render the report for us in the cloud and display the results at a URL. 
+You could render the report yourself, locally. See how [here](https://quarto.org/docs/get-started/authoring/vscode.html#rendering). But we are going to publish this repository to Posit Connect Cloud. Posit Connect Cloud will render the report for you in the cloud and display the results at a URL. 
 
-To do that, Connect Cloud will need to set up a Python environment that can run our code. We can tell Connect Cloud which packages to install by creating a `requirements.txt` file. 
+To do that, Posit Connect Cloud will need to set up a Python environment that can run your code. You can tell Posit Connect Cloud which packages to install by creating a `requirements.txt` file. 
 
-**What is a `requirements.txt` file**: By convention, when Python users share a project, they include a file named `requirements.txt` that lists the names of the packages used by the project. Other python users can quickly install these packages with a command like:
+**What is a `requirements.txt` file**: By convention, when Python users share a project, they include a file named `requirements.txt` that lists the names of the packages used by the project. Other Python users can quickly install these packages with a command like:
 
 ```
 pip install -r /path/to/requirements.txt
@@ -43,7 +43,7 @@ pip install -r /path/to/requirements.txt
 
    <img src="/images/requirements.png" width="600"/>
 
-   These are the packages needed to run our code chunk.
+   These are the packages needed to run your code chunk. Add additional package names as necessary if you supplied your own code to build the table.
 
 6. Click **Commit changes...** in the upper right corner above the contents box.
 

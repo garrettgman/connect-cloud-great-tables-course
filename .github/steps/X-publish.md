@@ -9,7 +9,7 @@
 
 _Almost there! :heart:_
 
-Let's publish that table!
+Let's publish that table to Posit Cloud Connect!
 
 **What is _Posit Connect Cloud_**: Posit Connect Cloud is a cloud environment to easily showcase your Python and R content. You authenticate into GitHub from Posit Connect Cloud and then publish R or Python backed content straight from your repos to the web. Learn more [here](https://connect.posit.cloud/).
 
@@ -29,7 +29,7 @@ Let's publish that table!
 
    <img src="/images/publish.png" width="600"/>
 
-5. **Select Quarto** as your framework. Remember how we placed your great table in a Quarto doc?
+5. **Select Quarto** as your framework, because you are publishing a Quarto doc.
 
    <img src="/images/framework.png" width="500"/>
 
@@ -52,7 +52,7 @@ Let's publish that table!
 10. Wait a minute or less. Posit Connect Cloud will quickly:
 
     1. Clone your repo
-    2. Create a python environment to render your Quarto doc in
+    2. Create a Python environment to render your Quarto doc in
     3. Render the doc
     4. Publish the result 
 
@@ -68,9 +68,9 @@ _Congratulations friend, you've completed this course!_
 
 Here's a recap of all the tasks you've accomplished in your repository:
 
-- Made a quarto doc
-- Added a python code chunk that generates a great table
-- Added a requirements.txt
+- Made a Quarto doc
+- Added a Python code chunk that generates a great table
+- Added a requirements.txt file
 - Published the Quarto doc to Posit Connect Cloud
 
 
@@ -88,7 +88,7 @@ Now that your table is on Posit Connect Cloud, you can
 
    Republishing will scoop up any changes you've made on GitHub. Posit Connect Cloud will eventually scoop up these changes on its own, but republishing the app makes it happen immediately.
 
-4. You can find these features and more next to your app on your Posit Connect home page.
+4. You can find these features, and more, next to your app on your Posit Connect home page.
 
    <img src="/images/portfolio.png" width=600>
 
